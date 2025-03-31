@@ -1,9 +1,99 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0" version="24.9.2">
   <diagram name="Página-1" id="1y8P2CDbdtnNZviRdfFL">
-    <mxGraphModel>
+    <mxGraphModel dx="1361" dy="692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="hESRGJhJiUW9HwsKIZmo-29" value="Caso de uso:&lt;br&gt;Adicionar consumo de Objeto" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="340" y="100" width="280" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="hESRGJhJiUW9HwsKIZmo-30" value="&lt;span style=&quot;&quot;&gt;Atores: Usuario&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="hESRGJhJiUW9HwsKIZmo-29">
+          <mxGeometry y="55" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hESRGJhJiUW9HwsKIZmo-31" value="Tipo: Primario" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="hESRGJhJiUW9HwsKIZmo-29">
+          <mxGeometry y="75" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hESRGJhJiUW9HwsKIZmo-34" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="hESRGJhJiUW9HwsKIZmo-29">
+          <mxGeometry y="95" width="280" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="hESRGJhJiUW9HwsKIZmo-36" value="Descrição: Usuário acessa aba de calculo de contas do software e adiciona kw/h de cada objeto que fica constante na casa" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="hESRGJhJiUW9HwsKIZmo-29">
+          <mxGeometry y="103" width="280" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="hESRGJhJiUW9HwsKIZmo-37" value="Caso de uso:&lt;br&gt;Calculo de Consumo" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="340" y="280" width="280" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="hESRGJhJiUW9HwsKIZmo-38" value="&lt;span style=&quot;&quot;&gt;Atores: Sistema&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="hESRGJhJiUW9HwsKIZmo-37">
+          <mxGeometry y="55" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hESRGJhJiUW9HwsKIZmo-39" value="Tipo: Secundario" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="hESRGJhJiUW9HwsKIZmo-37">
+          <mxGeometry y="75" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hESRGJhJiUW9HwsKIZmo-40" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="hESRGJhJiUW9HwsKIZmo-37">
+          <mxGeometry y="95" width="280" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="hESRGJhJiUW9HwsKIZmo-41" value="Descrição: Calcula o quanto irá sair (em média) a conta de luz da casa (O usuario deverá colocar quanto custa o kw/h porém deve ficar nessa uml ou na outra?)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="hESRGJhJiUW9HwsKIZmo-37">
+          <mxGeometry y="103" width="280" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="hESRGJhJiUW9HwsKIZmo-42" value="Caso de uso:&lt;br&gt;Salvar atividade no Calendario" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="340" y="505" width="280" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="hESRGJhJiUW9HwsKIZmo-43" value="&lt;span style=&quot;&quot;&gt;Atores:&amp;nbsp;&lt;/span&gt;Usuário" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="hESRGJhJiUW9HwsKIZmo-42">
+          <mxGeometry y="55" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hESRGJhJiUW9HwsKIZmo-44" value="Tipo: Primário" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="hESRGJhJiUW9HwsKIZmo-42">
+          <mxGeometry y="75" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hESRGJhJiUW9HwsKIZmo-45" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="hESRGJhJiUW9HwsKIZmo-42">
+          <mxGeometry y="95" width="280" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="hESRGJhJiUW9HwsKIZmo-46" value="Descrição: O Usuário acessa a aba de calendário do software e insere uma nova atividade e quanto é para ser notificado. O sistema registra a atividade e a armazena para futura consulta e edição." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="hESRGJhJiUW9HwsKIZmo-42">
+          <mxGeometry y="103" width="280" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="hESRGJhJiUW9HwsKIZmo-48" value="Caso de uso:&lt;br&gt;Notificação de Atividade" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="340" y="720" width="280" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="hESRGJhJiUW9HwsKIZmo-49" value="&lt;span style=&quot;&quot;&gt;Atores: Sistema&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="hESRGJhJiUW9HwsKIZmo-48">
+          <mxGeometry y="55" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hESRGJhJiUW9HwsKIZmo-50" value="Tipo: Secundario" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="hESRGJhJiUW9HwsKIZmo-48">
+          <mxGeometry y="75" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hESRGJhJiUW9HwsKIZmo-51" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="hESRGJhJiUW9HwsKIZmo-48">
+          <mxGeometry y="95" width="280" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="hESRGJhJiUW9HwsKIZmo-52" value="Descrição: Notificação para usuario na hora que foi settada na atividade" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="hESRGJhJiUW9HwsKIZmo-48">
+          <mxGeometry y="103" width="280" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="hESRGJhJiUW9HwsKIZmo-58" value="Caso de uso:&lt;br&gt;Excluir Atividade Existente" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="670" y="280" width="280" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="hESRGJhJiUW9HwsKIZmo-59" value="&lt;span style=&quot;&quot;&gt;Atores: Usuario&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="hESRGJhJiUW9HwsKIZmo-58">
+          <mxGeometry y="55" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hESRGJhJiUW9HwsKIZmo-60" value="Tipo: Primario" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="hESRGJhJiUW9HwsKIZmo-58">
+          <mxGeometry y="75" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hESRGJhJiUW9HwsKIZmo-61" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="hESRGJhJiUW9HwsKIZmo-58">
+          <mxGeometry y="95" width="280" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="hESRGJhJiUW9HwsKIZmo-62" value="Descrição: O Usuário acessa a aba de calendário do software e exclui a atividade existente. Sistema registra a exclusão" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="hESRGJhJiUW9HwsKIZmo-58">
+          <mxGeometry y="103" width="280" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="hESRGJhJiUW9HwsKIZmo-63" value="Caso de uso:&lt;br&gt;Edição das atividades Existentes" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="670" y="505" width="280" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="hESRGJhJiUW9HwsKIZmo-64" value="&lt;span style=&quot;&quot;&gt;Atores: Usuario&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="hESRGJhJiUW9HwsKIZmo-63">
+          <mxGeometry y="55" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hESRGJhJiUW9HwsKIZmo-65" value="Tipo: Primario" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="hESRGJhJiUW9HwsKIZmo-63">
+          <mxGeometry y="75" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hESRGJhJiUW9HwsKIZmo-66" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="hESRGJhJiUW9HwsKIZmo-63">
+          <mxGeometry y="95" width="280" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="hESRGJhJiUW9HwsKIZmo-67" value="Descrição: O Usuário acessa a aba de calendário do software e edita a atividade existente. Sistema registra a edição." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="hESRGJhJiUW9HwsKIZmo-63">
+          <mxGeometry y="103" width="280" height="87" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
