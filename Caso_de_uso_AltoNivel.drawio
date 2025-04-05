@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0" version="26.2.5">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0" version="26.2.8">
   <diagram name="Página-1" id="1y8P2CDbdtnNZviRdfFL">
-    <mxGraphModel dx="1625" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="1144" dy="658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="hESRGJhJiUW9HwsKIZmo-29" value="Caso de uso:&lt;br&gt;Adicionar consumo de Objeto" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+        <mxCell id="hESRGJhJiUW9HwsKIZmo-29" value="Caso de uso:&lt;br&gt;Adicionar consumo de Objeto&lt;br&gt;(4.2)" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="330" y="100" width="280" height="190" as="geometry" />
         </mxCell>
         <mxCell id="hESRGJhJiUW9HwsKIZmo-30" value="&lt;span style=&quot;&quot;&gt;Atores: Usuario&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="hESRGJhJiUW9HwsKIZmo-29" vertex="1">
@@ -19,8 +19,8 @@
         <mxCell id="hESRGJhJiUW9HwsKIZmo-36" value="&lt;br&gt;Descrição: O consumo em KW/H (e o valor do KW/H)&amp;nbsp; de cada objeto na casa e a quantiade de horas que o mesmo funciona por dia (ou se funciona em tempo integral) são informados pelo usuário&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="hESRGJhJiUW9HwsKIZmo-29" vertex="1">
           <mxGeometry y="103" width="280" height="87" as="geometry" />
         </mxCell>
-        <mxCell id="hESRGJhJiUW9HwsKIZmo-42" value="Caso de uso:&lt;br&gt;Adicionar atividade no Calendario" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="330" y="315" width="280" height="190" as="geometry" />
+        <mxCell id="hESRGJhJiUW9HwsKIZmo-42" value="Caso de uso:&lt;br&gt;Adicionar atividade no Calendario&lt;br&gt;(4.3)" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="331" y="315" width="280" height="190" as="geometry" />
         </mxCell>
         <mxCell id="hESRGJhJiUW9HwsKIZmo-43" value="&lt;span style=&quot;&quot;&gt;Atores:&amp;nbsp;&lt;/span&gt;Usuário" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="hESRGJhJiUW9HwsKIZmo-42" vertex="1">
           <mxGeometry y="55" width="280" height="20" as="geometry" />
@@ -34,7 +34,7 @@
         <mxCell id="hESRGJhJiUW9HwsKIZmo-46" value="Descrição: É inserida uma nova atividade e quanto a notificação precisa ser disparada. O sistema registra a atividade e a armazena para futura consulta e edição." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="hESRGJhJiUW9HwsKIZmo-42" vertex="1">
           <mxGeometry y="103" width="280" height="87" as="geometry" />
         </mxCell>
-        <mxCell id="hESRGJhJiUW9HwsKIZmo-48" value="Caso de uso:&lt;br&gt;Notificação de Atividade" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+        <mxCell id="hESRGJhJiUW9HwsKIZmo-48" value="Caso de uso:&lt;br&gt;Notificação de Atividade&lt;br&gt;(4.1)" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="330" y="550" width="280" height="190" as="geometry" />
         </mxCell>
         <mxCell id="hESRGJhJiUW9HwsKIZmo-49" value="&lt;span style=&quot;&quot;&gt;Atores: Timer&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="hESRGJhJiUW9HwsKIZmo-48" vertex="1">
@@ -49,7 +49,7 @@
         <mxCell id="hESRGJhJiUW9HwsKIZmo-52" value="Descrição: Timer liga e informa o sistema de uma notificação pendente." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="hESRGJhJiUW9HwsKIZmo-48" vertex="1">
           <mxGeometry y="103" width="280" height="87" as="geometry" />
         </mxCell>
-        <mxCell id="hESRGJhJiUW9HwsKIZmo-58" value="Caso de uso:&lt;br&gt;Excluir Atividade Existente" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+        <mxCell id="hESRGJhJiUW9HwsKIZmo-58" value="Caso de uso:&lt;br&gt;Excluir Atividade Existente&lt;br&gt;(4.4)" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="670" y="100" width="280" height="190" as="geometry" />
         </mxCell>
         <mxCell id="hESRGJhJiUW9HwsKIZmo-59" value="&lt;span style=&quot;&quot;&gt;Atores: Usuario&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="hESRGJhJiUW9HwsKIZmo-58" vertex="1">
@@ -64,7 +64,7 @@
         <mxCell id="hESRGJhJiUW9HwsKIZmo-62" value="Descrição: A atividade especificada é excluída e registrada como tal." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="hESRGJhJiUW9HwsKIZmo-58" vertex="1">
           <mxGeometry y="103" width="280" height="87" as="geometry" />
         </mxCell>
-        <mxCell id="hESRGJhJiUW9HwsKIZmo-63" value="Caso de uso:&lt;br&gt;Edição das atividades Existentes" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+        <mxCell id="hESRGJhJiUW9HwsKIZmo-63" value="Caso de uso:&lt;br&gt;Edição das atividades Existentes&lt;br&gt;(4.5)" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="670" y="315" width="280" height="190" as="geometry" />
         </mxCell>
         <mxCell id="hESRGJhJiUW9HwsKIZmo-64" value="&lt;span style=&quot;&quot;&gt;Atores: Usuario&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="hESRGJhJiUW9HwsKIZmo-63" vertex="1">
@@ -79,34 +79,34 @@
         <mxCell id="hESRGJhJiUW9HwsKIZmo-67" value="Descrição: A atividade especificada é editada, nome, descrição ou horário, e registrada como tal." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="hESRGJhJiUW9HwsKIZmo-63" vertex="1">
           <mxGeometry y="103" width="280" height="87" as="geometry" />
         </mxCell>
-        <mxCell id="8u0TkjSVdYfdCv28wPhr-1" value="Caso de uso:&lt;br&gt;Adicionar Contas Fixas" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="8u0TkjSVdYfdCv28wPhr-1" value="Caso de uso:&lt;br&gt;Adicionar Contas Fixas" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="670" y="550" width="280" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="8u0TkjSVdYfdCv28wPhr-2" value="&lt;span style=&quot;&quot;&gt;Atores: Usuario&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="8u0TkjSVdYfdCv28wPhr-1">
+        <mxCell id="8u0TkjSVdYfdCv28wPhr-2" value="&lt;span style=&quot;&quot;&gt;Atores: Usuario&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="8u0TkjSVdYfdCv28wPhr-1" vertex="1">
           <mxGeometry y="55" width="280" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="8u0TkjSVdYfdCv28wPhr-3" value="Tipo: Primario" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="8u0TkjSVdYfdCv28wPhr-1">
+        <mxCell id="8u0TkjSVdYfdCv28wPhr-3" value="Tipo: Primario" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="8u0TkjSVdYfdCv28wPhr-1" vertex="1">
           <mxGeometry y="75" width="280" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="8u0TkjSVdYfdCv28wPhr-4" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="8u0TkjSVdYfdCv28wPhr-1">
+        <mxCell id="8u0TkjSVdYfdCv28wPhr-4" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="8u0TkjSVdYfdCv28wPhr-1" vertex="1">
           <mxGeometry y="95" width="280" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="8u0TkjSVdYfdCv28wPhr-5" value="&lt;br&gt;Descrição: Adiciona contas fixas (aluguel, condômino), métodos caso hajam divisões (como rateios) e vencimento da conta&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="8u0TkjSVdYfdCv28wPhr-1">
+        <mxCell id="8u0TkjSVdYfdCv28wPhr-5" value="&lt;br&gt;Descrição: Adiciona contas fixas (aluguel, condômino), métodos caso hajam divisões (como rateios) e vencimento da conta&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="8u0TkjSVdYfdCv28wPhr-1" vertex="1">
           <mxGeometry y="103" width="280" height="87" as="geometry" />
         </mxCell>
-        <mxCell id="8u0TkjSVdYfdCv28wPhr-6" value="Caso de uso:&lt;br&gt;Edição Contas" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="8u0TkjSVdYfdCv28wPhr-6" value="Caso de uso:&lt;br&gt;Edição Contas" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1000" y="550" width="280" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="8u0TkjSVdYfdCv28wPhr-7" value="&lt;span style=&quot;&quot;&gt;Atores: Usuario&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="8u0TkjSVdYfdCv28wPhr-6">
+        <mxCell id="8u0TkjSVdYfdCv28wPhr-7" value="&lt;span style=&quot;&quot;&gt;Atores: Usuario&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="8u0TkjSVdYfdCv28wPhr-6" vertex="1">
           <mxGeometry y="55" width="280" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="8u0TkjSVdYfdCv28wPhr-8" value="Tipo: Primario" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="8u0TkjSVdYfdCv28wPhr-6">
+        <mxCell id="8u0TkjSVdYfdCv28wPhr-8" value="Tipo: Primario" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="8u0TkjSVdYfdCv28wPhr-6" vertex="1">
           <mxGeometry y="75" width="280" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="8u0TkjSVdYfdCv28wPhr-9" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="8u0TkjSVdYfdCv28wPhr-6">
+        <mxCell id="8u0TkjSVdYfdCv28wPhr-9" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="8u0TkjSVdYfdCv28wPhr-6" vertex="1">
           <mxGeometry y="95" width="280" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="8u0TkjSVdYfdCv28wPhr-10" value="Descrição: Conta especifica é editada, nome, descrição ou vencimento, e registrada como tal." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="8u0TkjSVdYfdCv28wPhr-6">
+        <mxCell id="8u0TkjSVdYfdCv28wPhr-10" value="Descrição: Conta especifica é editada, nome, descrição ou vencimento, e registrada como tal." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="8u0TkjSVdYfdCv28wPhr-6" vertex="1">
           <mxGeometry y="103" width="280" height="87" as="geometry" />
         </mxCell>
       </root>
