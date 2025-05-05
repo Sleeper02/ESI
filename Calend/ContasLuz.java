@@ -1,7 +1,17 @@
-public class contasFixas extends Contas {
+public class ContasLuz extends Contas{ //Dará uma estimativa do minimo da conta
+    protected int Kwh; //Usuario terá que inserir o kwh para o calculo da conta de luz
 
-    protected contasFixas(int valor, String nome, String dataVencimento){
+    public ContasLuz(int valor, String nome, String dataVencimento, int Kwh, int TempodeUso){
         super(valor,nome,dataVencimento);
+        this.Kwh = Kwh;
+    }
+
+    protected int Kwh(){
+        return Kwh;
+    }
+
+    protected int TempodeUso(){
+        return TempodeUso;
     }
 
     protected int getValor(){
@@ -14,6 +24,10 @@ public class contasFixas extends Contas {
 
     protected String getDataVencimento(){
         return dataVencimento;
+    }
+
+    private void setKwh(int Kwh){
+        this.Kwh = Kwh
     }
 
     private void setNome(String valor){

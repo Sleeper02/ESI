@@ -16,5 +16,7 @@ public class CalculoTotal { //Essa classe irá desaparecer e ser implementada em
         return SomaTotal;
     }
 
+    //o calculo da conta de luz vai ter que puxar o kwh da conta de luz e dividir pela multiplicação do Eletrodomestico watts*TempodeUso
+    // Pensei em fazer no eletrodomestico mas é sempre bom separar as classes certinho, cada um faz só uma coisa
 
 }
