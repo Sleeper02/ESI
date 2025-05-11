@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0" version="26.2.8">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 OPR/118.0.0.0" version="27.0.3">
   <diagram name="Página-1" id="1y8P2CDbdtnNZviRdfFL">
-    <mxGraphModel dx="1346" dy="774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="1911" dy="981" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -35,7 +35,7 @@
           <mxGeometry y="103" width="280" height="87" as="geometry" />
         </mxCell>
         <mxCell id="hESRGJhJiUW9HwsKIZmo-48" value="Caso de uso:&lt;br&gt;Notificação de Atividade&lt;br&gt;(4.1)" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="120" y="60" width="280" height="190" as="geometry" />
+          <mxGeometry x="110" y="60" width="280" height="190" as="geometry" />
         </mxCell>
         <mxCell id="hESRGJhJiUW9HwsKIZmo-49" value="&lt;span style=&quot;&quot;&gt;Atores: Timer&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="hESRGJhJiUW9HwsKIZmo-48" vertex="1">
           <mxGeometry y="55" width="280" height="20" as="geometry" />
@@ -109,106 +109,121 @@
         <mxCell id="8u0TkjSVdYfdCv28wPhr-10" value="Descrição: Conta especifica é editada, nome, descrição ou vencimento, e registrada como tal." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="8u0TkjSVdYfdCv28wPhr-6" vertex="1">
           <mxGeometry y="103" width="280" height="87" as="geometry" />
         </mxCell>
-        <mxCell id="aNvYWBEo9Q4qiZTx3_CM-15" value="Ação do Ator" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="aNvYWBEo9Q4qiZTx3_CM-15" value="Ação do Ator" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="120" y="290" width="130" height="120" as="geometry">
             <mxRectangle x="120" y="290" width="60" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aNvYWBEo9Q4qiZTx3_CM-16" value="Timer é iniciado junto do sistema" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="aNvYWBEo9Q4qiZTx3_CM-15">
+        <mxCell id="aNvYWBEo9Q4qiZTx3_CM-16" value="Timer é iniciado junto do sistema" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="aNvYWBEo9Q4qiZTx3_CM-15" vertex="1">
           <mxGeometry y="30" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="aNvYWBEo9Q4qiZTx3_CM-17" value="Caso o horário de alguma atividade chegue, ele aciona o app." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="aNvYWBEo9Q4qiZTx3_CM-15">
+        <mxCell id="aNvYWBEo9Q4qiZTx3_CM-17" value="Caso o horário de alguma atividade chegue, ele aciona o app." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="aNvYWBEo9Q4qiZTx3_CM-15" vertex="1">
           <mxGeometry y="60" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="aNvYWBEo9Q4qiZTx3_CM-19" value="Resposta do Sistena" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="aNvYWBEo9Q4qiZTx3_CM-19" value="Resposta do Sistena" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="250" y="290" width="150" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="aNvYWBEo9Q4qiZTx3_CM-22" value="Caso o sistema esteja ligado, é feita a notificação a atividade. Caso não, o sistema é ligado e a atividade é&amp;nbsp; notificada." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="aNvYWBEo9Q4qiZTx3_CM-19">
+        <mxCell id="aNvYWBEo9Q4qiZTx3_CM-22" value="Caso o sistema esteja ligado, é feita a notificação a atividade. Caso não, o sistema é ligado e a atividade é&amp;nbsp; notificada." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="aNvYWBEo9Q4qiZTx3_CM-19" vertex="1">
           <mxGeometry y="30" width="150" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="aNvYWBEo9Q4qiZTx3_CM-23" value="Ação do Ator" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="aNvYWBEo9Q4qiZTx3_CM-23" value="Ação do Ator" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="480" y="290" width="130" height="100" as="geometry">
             <mxRectangle x="470" y="70" width="60" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aNvYWBEo9Q4qiZTx3_CM-24" value="Informa os dados citados na descrição do caso" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="aNvYWBEo9Q4qiZTx3_CM-23">
+        <mxCell id="aNvYWBEo9Q4qiZTx3_CM-24" value="Informa os dados citados na descrição do caso" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="aNvYWBEo9Q4qiZTx3_CM-23" vertex="1">
           <mxGeometry y="30" width="130" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="aNvYWBEo9Q4qiZTx3_CM-27" value="Resposta do Sistena" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="aNvYWBEo9Q4qiZTx3_CM-27" value="Resposta do Sistena" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="610" y="290" width="150" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="aNvYWBEo9Q4qiZTx3_CM-28" value="Sistema responde realizando o cálculo da conta, mostrando os resultados na tela" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="aNvYWBEo9Q4qiZTx3_CM-27">
+        <mxCell id="aNvYWBEo9Q4qiZTx3_CM-28" value="Sistema responde realizando o cálculo da conta, mostrando os resultados na tela" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="aNvYWBEo9Q4qiZTx3_CM-27" vertex="1">
           <mxGeometry y="30" width="150" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="aNvYWBEo9Q4qiZTx3_CM-31" value="Ação do Ator" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="aNvYWBEo9Q4qiZTx3_CM-31" value="Ação do Ator" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="840" y="290" width="130" height="120" as="geometry">
             <mxRectangle x="470" y="70" width="60" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aNvYWBEo9Q4qiZTx3_CM-32" value="O usuário cria uma nova atividade em um dia e hora correspondentes no calendário." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="aNvYWBEo9Q4qiZTx3_CM-31">
+        <mxCell id="aNvYWBEo9Q4qiZTx3_CM-32" value="O usuário cria uma nova atividade em um dia e hora correspondentes no calendário." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="aNvYWBEo9Q4qiZTx3_CM-31" vertex="1">
           <mxGeometry y="30" width="130" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="aNvYWBEo9Q4qiZTx3_CM-35" value="Resposta do Sistena" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="aNvYWBEo9Q4qiZTx3_CM-35" value="Resposta do Sistena" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="970" y="290" width="150" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="aNvYWBEo9Q4qiZTx3_CM-36" value="O sistema salva essas informações no calendário." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="aNvYWBEo9Q4qiZTx3_CM-35">
+        <mxCell id="aNvYWBEo9Q4qiZTx3_CM-36" value="O sistema salva essas informações no calendário." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="aNvYWBEo9Q4qiZTx3_CM-35" vertex="1">
           <mxGeometry y="30" width="150" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="aNvYWBEo9Q4qiZTx3_CM-39" value="Ação do Ator" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="aNvYWBEo9Q4qiZTx3_CM-39" value="Ação do Ator" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="120" y="760" width="130" height="150" as="geometry">
             <mxRectangle x="470" y="70" width="60" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aNvYWBEo9Q4qiZTx3_CM-40" value="O usuário remove uma atividade registrada anteriormente em uma data correspondente do calendário." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="aNvYWBEo9Q4qiZTx3_CM-39">
+        <mxCell id="aNvYWBEo9Q4qiZTx3_CM-40" value="O usuário remove uma atividade registrada anteriormente em uma data correspondente do calendário." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="aNvYWBEo9Q4qiZTx3_CM-39" vertex="1">
           <mxGeometry y="30" width="130" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="aNvYWBEo9Q4qiZTx3_CM-43" value="Resposta do Sistena" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="aNvYWBEo9Q4qiZTx3_CM-43" value="Resposta do Sistena" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="250" y="760" width="150" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="aNvYWBEo9Q4qiZTx3_CM-44" value="O sistema exclui os dados salvos da atividade na data correspondente" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="aNvYWBEo9Q4qiZTx3_CM-43">
+        <mxCell id="aNvYWBEo9Q4qiZTx3_CM-44" value="O sistema exclui os dados salvos da atividade na data correspondente" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="aNvYWBEo9Q4qiZTx3_CM-43" vertex="1">
           <mxGeometry y="30" width="150" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="aNvYWBEo9Q4qiZTx3_CM-47" value="Ação do Ator" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="aNvYWBEo9Q4qiZTx3_CM-47" value="Ação do Ator" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="480" y="760" width="130" height="130" as="geometry">
             <mxRectangle x="470" y="70" width="60" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aNvYWBEo9Q4qiZTx3_CM-48" value="O usuário inicia a edição das informações de uma atividade registrada previamente no calendário." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="aNvYWBEo9Q4qiZTx3_CM-47">
+        <mxCell id="aNvYWBEo9Q4qiZTx3_CM-48" value="O usuário inicia a edição das informações de uma atividade registrada previamente no calendário." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="aNvYWBEo9Q4qiZTx3_CM-47" vertex="1">
           <mxGeometry y="30" width="130" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="aNvYWBEo9Q4qiZTx3_CM-51" value="Resposta do Sistena" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="aNvYWBEo9Q4qiZTx3_CM-51" value="Resposta do Sistena" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="610" y="760" width="150" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="aNvYWBEo9Q4qiZTx3_CM-52" value="As alterações feitas pelo usuário são salvas na mesma atividade." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="aNvYWBEo9Q4qiZTx3_CM-51">
+        <mxCell id="aNvYWBEo9Q4qiZTx3_CM-52" value="As alterações feitas pelo usuário são salvas na mesma atividade." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="aNvYWBEo9Q4qiZTx3_CM-51" vertex="1">
           <mxGeometry y="30" width="150" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="aNvYWBEo9Q4qiZTx3_CM-55" value="Ação do Ator" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="aNvYWBEo9Q4qiZTx3_CM-55" value="Ação do Ator" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="840" y="760" width="130" height="120" as="geometry">
             <mxRectangle x="470" y="70" width="60" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aNvYWBEo9Q4qiZTx3_CM-56" value="As contas de valor fixo são adicionadas pelo usuário, juntamente da data de vencimento" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="aNvYWBEo9Q4qiZTx3_CM-55">
+        <mxCell id="aNvYWBEo9Q4qiZTx3_CM-56" value="As contas de valor fixo são adicionadas pelo usuário, juntamente da data de vencimento" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="aNvYWBEo9Q4qiZTx3_CM-55" vertex="1">
           <mxGeometry y="30" width="130" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="aNvYWBEo9Q4qiZTx3_CM-59" value="Resposta do Sistena" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="aNvYWBEo9Q4qiZTx3_CM-59" value="Resposta do Sistena" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="970" y="760" width="150" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="aNvYWBEo9Q4qiZTx3_CM-60" value="O sistema registra esses valores juntamente das demais contas." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="aNvYWBEo9Q4qiZTx3_CM-59">
+        <mxCell id="aNvYWBEo9Q4qiZTx3_CM-60" value="O sistema registra esses valores juntamente das demais contas." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="aNvYWBEo9Q4qiZTx3_CM-59" vertex="1">
           <mxGeometry y="30" width="150" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="aNvYWBEo9Q4qiZTx3_CM-63" value="Ação do Ator" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="aNvYWBEo9Q4qiZTx3_CM-63" value="Ação do Ator" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="120" y="1190" width="130" height="130" as="geometry">
             <mxRectangle x="470" y="70" width="60" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aNvYWBEo9Q4qiZTx3_CM-64" value="O usuário abre uma conta registrada previamente e edita suas informações." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="aNvYWBEo9Q4qiZTx3_CM-63">
+        <mxCell id="aNvYWBEo9Q4qiZTx3_CM-64" value="O usuário abre uma conta registrada previamente e edita suas informações." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="aNvYWBEo9Q4qiZTx3_CM-63" vertex="1">
           <mxGeometry y="30" width="130" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="aNvYWBEo9Q4qiZTx3_CM-67" value="Resposta do Sistena" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="aNvYWBEo9Q4qiZTx3_CM-67" value="Resposta do Sistena" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="250" y="1190" width="150" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="aNvYWBEo9Q4qiZTx3_CM-68" value="O sistema registra as edições de informação feitas pelo usuário e as registra novamente na conta." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="aNvYWBEo9Q4qiZTx3_CM-67">
+        <mxCell id="aNvYWBEo9Q4qiZTx3_CM-68" value="O sistema registra as edições de informação feitas pelo usuário e as registra novamente na conta." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="aNvYWBEo9Q4qiZTx3_CM-67" vertex="1">
           <mxGeometry y="30" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="9GgNR1Z67VRa7iDUR14--2" value="Caso de uso:&lt;br&gt;Excluir Contas Existente&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="480" y="950" width="280" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="9GgNR1Z67VRa7iDUR14--3" value="&lt;span style=&quot;&quot;&gt;Atores: Usuario&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="9GgNR1Z67VRa7iDUR14--2">
+          <mxGeometry y="55" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9GgNR1Z67VRa7iDUR14--4" value="Tipo: Primario" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="9GgNR1Z67VRa7iDUR14--2">
+          <mxGeometry y="75" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9GgNR1Z67VRa7iDUR14--5" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="9GgNR1Z67VRa7iDUR14--2">
+          <mxGeometry y="95" width="280" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="9GgNR1Z67VRa7iDUR14--6" value="Descrição: A conta especificada é excluída e registrada como tal." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="9GgNR1Z67VRa7iDUR14--2">
+          <mxGeometry y="103" width="280" height="87" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
