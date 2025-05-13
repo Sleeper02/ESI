@@ -3,5 +3,6 @@ com\mycompany\sistemaes\Eletrodomestico.class
 com\mycompany\sistemaes\SistemaES.class
 com\mycompany\sistemaes\ContasFixas.class
 com\mycompany\sistemaes\Controlador.class
+com\mycompany\sistemaes\Usuario.class
 com\mycompany\sistemaes\Contas.class
 com\mycompany\sistemaes\ContasLuz.class

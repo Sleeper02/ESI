@@ -6,10 +6,10 @@ public class SistemaES {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Caminho absoluto usando a pasta onde o programa está sendo executado
         String caminhoArquivo = System.getProperty("user.dir") + "/dados.ser";
 
         Controlador controlador = Controlador.carregarDeArquivo(caminhoArquivo);
+        Usuario usuario = controlador.getUsuario(); // obtém o usuário que agora armazena os dados
 
         int opcao;
 
@@ -39,28 +39,28 @@ public class SistemaES {
                     String data = scanner.nextLine();
 
                     if (tipo == 1) {
-                        controlador.adicionarContaFixa(new ContasFixas(valor, nome, data));
+                        usuario.adicionarContaFixa(new ContasFixas(valor, nome, data));
                     } else {
                         System.out.print("Consumo (kWh): ");
                         int kwh = scanner.nextInt();
                         System.out.print("Tempo de uso (horas): ");
                         int tempo = scanner.nextInt();
                         scanner.nextLine();
-                        controlador.adicionarEletrodomestico(new Eletrodomestico(nome, kwh, tempo));
+                        usuario.adicionarEletrodomestico(new Eletrodomestico(nome, kwh, tempo));
                     }
                     System.out.println("Conta adicionada com sucesso.");
                     break;
 
                 case 2:
                     System.out.println("\n--- CONTAS FIXAS ---");
-                    for (ContasFixas c : controlador.getContasFixas()) {
+                    for (ContasFixas c : usuario.getContasFixas()) {
                         System.out.println(c.getNome() + " - R$" + c.getValor() + " - Vence em: " + c.getDataVencimento());
                     }
                     System.out.println("\n--- ELETRODOMÉSTICOS ---");
-                    for (Eletrodomestico e : controlador.getEletrodomesticos()) {
+                    for (Eletrodomestico e : usuario.getEletrodomesticos()) {
                         System.out.println(e.getNome() + " - Consumo: " + e.getWatts() + "W por " + e.getTempoDeUso() + "h");
                     }
-                    System.out.printf("\nTOTAL ESTIMADO: R$ %.2f\n", controlador.calcularTotal());
+                    System.out.printf("\nTOTAL ESTIMADO: R$ %.2f\n", usuario.calcularTotal());
                     break;
 
                 case 3:
@@ -68,13 +68,13 @@ public class SistemaES {
                     String nomeAtividade = scanner.nextLine();
                     System.out.print("Data (ex: 05/05): ");
                     String dataAtividade = scanner.nextLine();
-                    controlador.adicionarAtividade(new Atividade(nomeAtividade, dataAtividade));
+                    usuario.adicionarAtividade(new Atividade(nomeAtividade, dataAtividade));
                     System.out.println("Atividade adicionada.");
                     break;
 
                 case 4:
                     System.out.println("\n--- ATIVIDADES ---");
-                    for (Atividade a : controlador.getAtividades()) {
+                    for (Atividade a : usuario.getAtividades()) {
                         System.out.println(a);
                     }
                     break;
