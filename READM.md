@@ -1,4 +1,4 @@
-# ESI
+# ESI - Pedro Milani e Nicolas Fernandes
 # Diagramas do Projeto
 
 Este repositório contém arquivos de diagramas com a extensão `.drawio`, que representam modelos visuais utilizados no projeto (como diagramas de casos de uso, diagramas de classes, fluxogramas, entre outros).
