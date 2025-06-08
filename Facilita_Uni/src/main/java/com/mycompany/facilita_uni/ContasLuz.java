@@ -1,5 +1,17 @@
-public class ContasLuz extends Contas{ //Dará uma estimativa do minimo da conta
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package com.mycompany.facilita_uni;
+import java.io.Serializable;
+
+/**
+ *
+ * @author Pedro
+ */
+public class ContasLuz extends Contas implements Serializable{ //Dará uma estimativa do minimo da conta
     protected int Kwh; //Usuario terá que inserir o kwh para o calculo da conta de luz
+    protected int TempodeUso; 
 
     public ContasLuz(int valor, String nome, String dataVencimento, int Kwh, int TempodeUso){
         super(valor,nome,dataVencimento);
@@ -27,7 +39,7 @@ public class ContasLuz extends Contas{ //Dará uma estimativa do minimo da conta
     }
 
     private void setKwh(int Kwh){
-        this.Kwh = Kwh
+        this.Kwh = Kwh;
     }
 
     private void setNome(String valor){

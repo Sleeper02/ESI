@@ -1,4 +1,15 @@
-public class Contas {
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package com.mycompany.facilita_uni;
+
+import java.io.Serializable;
+
+/**
+ *
+ * @author Pedro
+ */public class Contas implements Serializable {
     protected int valor;
     protected String dataVencimento;
     protected String nome;
@@ -10,14 +21,14 @@ public class Contas {
     }
 
     private void setdataVencimento(String dataVencimento){
-        this.dataVencimento = dataVencimento
+        this.dataVencimento = dataVencimento;
     }
 
     private void setnome (String nome){
         this.nome = nome;
     }
 
-    private void setValor(String valor){
+    private void setValor(int valor){
         this.valor = valor;
     }
 
@@ -26,7 +37,7 @@ public class Contas {
     }
 
     protected String getNome(){
-        return getNome;
+        return nome;
     }
 
     protected int getValor(){

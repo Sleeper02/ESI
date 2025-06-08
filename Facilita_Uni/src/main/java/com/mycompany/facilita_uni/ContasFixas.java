@@ -1,6 +1,17 @@
-public class contasFixas extends Contas {
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package com.mycompany.facilita_uni;
+import java.io.Serializable;
 
-    protected contasFixas(int valor, String nome, String dataVencimento){
+/**
+ *
+ * @author Pedro
+ */
+public class ContasFixas extends Contas implements Serializable{
+
+    protected ContasFixas(int valor, String nome, String dataVencimento){
         super(valor,nome,dataVencimento);
     }
 
