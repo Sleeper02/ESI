@@ -1,0 +1,43 @@
+.barraDeNaveg {
+    -fx-background-color: #363434;
+    /* -fx-border-radius: 6px; */
+}
+
+.main {
+    -fx-background-color: #312E2E;
+    
+}
+
+.botoes{
+    -fx-background-color: #363434;
+    -fx-border-radius: 6px;
+    -fx-border-color: #312E2E;
+
+}
+
+.botoesAddRemov{
+    -fx-border-radius: 12px;
+    -fx-background-color: #2D2929;
+}
+
+.botoesCancelar{
+    -fx-border-radius: 12px;
+    -fx-background-color: #CA4646;
+}
+
+.botoesSalvar{
+    -fx-border-radius: 12px;
+    -fx-background-color: #FFFF;
+}
+.app{
+    -fx-pref-height: 1024px;
+    -fx-pref-width: 1440px;
+}
+
+.perfilFrame{
+    -fx-pref-height: 372px;
+    -fx-pref-width: 862px;
+    -fx-background-color: #363434;
+    -fx-background-radius: 10px;
+
+}

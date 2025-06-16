@@ -36,7 +36,7 @@
                 <artifactId>javafx-maven-plugin</artifactId>
                 <version>0.0.4</version>
                 <configuration>
-                    <mainClass>com.mycompany.facilita_uni.App</mainClass>
+                    <mainClass>com.mycompany.facilita_uni.interfac.BemVindo</mainClass>
                 </configuration>
                 <executions>
                     <execution>
