@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.control.Avatar?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" styleClass="app" stylesheets="@style.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" styleClass="main" stylesheets="@style.css" BorderPane.alignment="CENTER">
+         <children>
+            <Avatar layoutX="31.0" layoutY="912.0" />
+         </children></AnchorPane>
+   </center>
+   <top>
+      <AnchorPane prefHeight="39.0" prefWidth="600.0" styleClass="barraDeNaveg" BorderPane.alignment="CENTER">
+         <children>
+            <Button layoutX="14.0" layoutY="7.0" mnemonicParsing="false" onAction="#carregarTelaContas" styleClass="botoes" text="Contas" textFill="#7b7b7b" />
+            <Button layoutX="83.0" layoutY="7.0" mnemonicParsing="false" styleClass="botoes" text="Calendário" textFill="#7b7b7b" />
+         </children>
+      </AnchorPane>
+   </top>
+</BorderPane>
