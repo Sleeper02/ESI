@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane styleClass="perfilFrame" stylesheets="@style.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="104.0" layoutY="56.0" prefHeight="147.0" prefWidth="633.0" text="Bem-vindo," textFill="WHITE">
+         <font>
+            <Font size="102.0" />
+         </font>
+      </Label>
+      <Label fx:id="nomeUsuario" layoutX="110.0" layoutY="178.0" prefHeight="142.0" prefWidth="635.0" textFill="WHITE">
+         <font>
+            <Font size="102.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

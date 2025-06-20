@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="969.0" prefWidth="1440.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="botaoAddConta" layoutX="596.0" layoutY="14.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="252.0" styleClass="botoesCancelar" stylesheets="@style.css" text="Cancelar" textFill="WHITE" AnchorPane.rightAnchor="290.0" AnchorPane.topAnchor="21.0">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Button>
+      <Button fx:id="botaoRemovConta" layoutX="698.0" layoutY="14.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="252.0" styleClass="botoesSalvar" stylesheets="@style.css" text="Remover Conta" textFill="#2d2929" AnchorPane.rightAnchor="11.0" AnchorPane.topAnchor="21.0">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
