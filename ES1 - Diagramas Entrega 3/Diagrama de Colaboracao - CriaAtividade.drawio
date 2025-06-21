@@ -1,0 +1,63 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" version="27.1.6">
+  <diagram name="Página-1" id="XF_x5VQFjoxOcxVBYQ8s">
+    <mxGraphModel dx="1124" dy="658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ogCy5rqe2NbMHl-ZJSUs-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ogCy5rqe2NbMHl-ZJSUs-1" target="ogCy5rqe2NbMHl-ZJSUs-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ogCy5rqe2NbMHl-ZJSUs-10" value="1. CriarAtividade(nome, data) : atividade" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ogCy5rqe2NbMHl-ZJSUs-8">
+          <mxGeometry x="-0.1621" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ogCy5rqe2NbMHl-ZJSUs-1" value="&lt;div&gt;: Usuário&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="140" width="20" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ogCy5rqe2NbMHl-ZJSUs-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ogCy5rqe2NbMHl-ZJSUs-6" target="ogCy5rqe2NbMHl-ZJSUs-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ogCy5rqe2NbMHl-ZJSUs-15" value="3. SerializaDados(Dados)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ogCy5rqe2NbMHl-ZJSUs-9">
+          <mxGeometry x="-0.0778" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ogCy5rqe2NbMHl-ZJSUs-6" value="Aplicação" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ogCy5rqe2NbMHl-ZJSUs-17" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="ogCy5rqe2NbMHl-ZJSUs-7" target="ogCy5rqe2NbMHl-ZJSUs-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="320" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ogCy5rqe2NbMHl-ZJSUs-18" value="4.List&amp;lt;Atividades&amp;gt; := DadosSerializados()&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ogCy5rqe2NbMHl-ZJSUs-17">
+          <mxGeometry x="0.1072" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ogCy5rqe2NbMHl-ZJSUs-7" value="Sistema de Arquivos" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ogCy5rqe2NbMHl-ZJSUs-13" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" target="ogCy5rqe2NbMHl-ZJSUs-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="250" as="sourcePoint" />
+            <mxPoint x="640" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="650" y="250" />
+              <mxPoint x="650" y="295" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ogCy5rqe2NbMHl-ZJSUs-14" value="2. validaDados(nome, data)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ogCy5rqe2NbMHl-ZJSUs-13">
+          <mxGeometry x="0.0582" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
