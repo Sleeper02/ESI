@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 OPR/118.0.0.0" version="27.0.3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" version="27.2.0">
   <diagram name="Página-1" id="kK9Q5x7Ul4syOyAzXMhQ">
-    <mxGraphModel dx="1979" dy="1191" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="2320" dy="1191" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -28,282 +28,79 @@
         <mxCell id="czN3PmELxrrif3z_Lymv-8" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Caso de uso:&amp;nbsp; Exclusão de Conta&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Atores: Usuário&lt;/p&gt;&lt;hr id=&quot;null&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Finalidade: Excluir registro das contas&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Visão Geral: Excluir registros das contas a serem pagas já existentes.&lt;/p&gt;&lt;hr id=&quot;null&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Tipo: Primário&lt;/p&gt;&lt;hr id=&quot;null&quot;&gt;&lt;div&gt;Referências &lt;br&gt;Cruzadas: Requisitos -&amp;gt;&amp;nbsp; RF_B5&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="90" y="1340" width="330" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="TaJFN8cOOA2_DRdMaHoU-13" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Caso de uso:&amp;nbsp; Notificar Atividade&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Atores: Timer&lt;/p&gt;&lt;hr id=&quot;null&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Finalidade: Notificar usuário de evento próximo&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Visão Geral:&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Timer liga e informa o sistema de uma notificação pendente.&lt;/span&gt;&lt;/p&gt;&lt;hr id=&quot;null&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Tipo: Secundário&lt;/p&gt;&lt;hr id=&quot;null&quot;&gt;&lt;div&gt;Referências &lt;br&gt;Cruzadas: Requisitos -&amp;gt;&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="460" y="480" width="330" height="280" as="geometry" />
-        </mxCell>
-        <mxCell id="TaJFN8cOOA2_DRdMaHoU-19" value="Sequência Típica de Eventos" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=770;height=70;" vertex="1" parent="1">
+        <mxCell id="TaJFN8cOOA2_DRdMaHoU-19" value="Sequência Típica de Eventos" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=770;height=70;" parent="1" vertex="1">
           <mxGeometry x="1000" y="90" width="770" height="530" as="geometry" />
         </mxCell>
-        <mxCell id="TaJFN8cOOA2_DRdMaHoU-20" value="" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="TaJFN8cOOA2_DRdMaHoU-20" value="" style="whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="1000" y="160" width="770" height="460" as="geometry" />
         </mxCell>
-        <mxCell id="TaJFN8cOOA2_DRdMaHoU-34" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
+        <mxCell id="TaJFN8cOOA2_DRdMaHoU-34" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" parent="1" vertex="1">
           <mxGeometry x="1000" y="160" width="770" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TaJFN8cOOA2_DRdMaHoU-35" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TaJFN8cOOA2_DRdMaHoU-34">
+        <mxCell id="TaJFN8cOOA2_DRdMaHoU-35" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="TaJFN8cOOA2_DRdMaHoU-34" vertex="1">
           <mxGeometry width="770" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TaJFN8cOOA2_DRdMaHoU-36" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;Ação do Ator&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="TaJFN8cOOA2_DRdMaHoU-35">
+        <mxCell id="TaJFN8cOOA2_DRdMaHoU-36" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;Ação do Ator&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" parent="TaJFN8cOOA2_DRdMaHoU-35" vertex="1">
           <mxGeometry width="385" height="60" as="geometry">
             <mxRectangle width="385" height="60" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TaJFN8cOOA2_DRdMaHoU-37" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;Resposta do Aplicativo&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="TaJFN8cOOA2_DRdMaHoU-35">
+        <mxCell id="TaJFN8cOOA2_DRdMaHoU-37" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;Resposta do Aplicativo&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" parent="TaJFN8cOOA2_DRdMaHoU-35" vertex="1">
           <mxGeometry x="385" width="385" height="60" as="geometry">
             <mxRectangle width="385" height="60" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TaJFN8cOOA2_DRdMaHoU-21" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="TaJFN8cOOA2_DRdMaHoU-21" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="1000" y="213" width="770" height="407" as="geometry" />
         </mxCell>
-        <mxCell id="TaJFN8cOOA2_DRdMaHoU-22" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TaJFN8cOOA2_DRdMaHoU-21">
+        <mxCell id="TaJFN8cOOA2_DRdMaHoU-22" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="TaJFN8cOOA2_DRdMaHoU-21" vertex="1">
           <mxGeometry width="770" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="TaJFN8cOOA2_DRdMaHoU-23" value="&lt;font&gt;1. Este caso de uso começa quando o usuário insere os dados das contas fixas, luz e eletrodomésticos&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=center;fontSize=18;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;" vertex="1" parent="TaJFN8cOOA2_DRdMaHoU-22">
+        <mxCell id="TaJFN8cOOA2_DRdMaHoU-23" value="&lt;font&gt;1. Este caso de uso começa quando o usuário insere os dados das contas fixas, luz e eletrodomésticos&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=center;fontSize=18;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;" parent="TaJFN8cOOA2_DRdMaHoU-22" vertex="1">
           <mxGeometry width="385" height="100" as="geometry">
             <mxRectangle width="385" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TaJFN8cOOA2_DRdMaHoU-24" value="&lt;font&gt;&amp;nbsp;2. O aplicativo calcula o custo do Kwh com o tempo do consumo do eletrodoméstico e faz a soma para o usuário.&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=center;fontSize=18;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;" vertex="1" parent="TaJFN8cOOA2_DRdMaHoU-22">
+        <mxCell id="TaJFN8cOOA2_DRdMaHoU-24" value="&lt;font&gt;&amp;nbsp;2. O aplicativo calcula o custo do Kwh com o tempo do consumo do eletrodoméstico e faz a soma para o usuário.&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=center;fontSize=18;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;" parent="TaJFN8cOOA2_DRdMaHoU-22" vertex="1">
           <mxGeometry x="385" width="385" height="100" as="geometry">
             <mxRectangle width="385" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TaJFN8cOOA2_DRdMaHoU-25" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=18;" vertex="1" parent="TaJFN8cOOA2_DRdMaHoU-21">
+        <mxCell id="TaJFN8cOOA2_DRdMaHoU-25" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=18;" parent="TaJFN8cOOA2_DRdMaHoU-21" vertex="1">
           <mxGeometry y="100" width="770" height="102" as="geometry" />
         </mxCell>
-        <mxCell id="TaJFN8cOOA2_DRdMaHoU-26" value="3. Usuário adiciona evento/atividade ao calendário" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;fontSize=18;" vertex="1" parent="TaJFN8cOOA2_DRdMaHoU-25">
+        <mxCell id="TaJFN8cOOA2_DRdMaHoU-26" value="3. Usuário adiciona evento/atividade ao calendário" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;fontSize=18;" parent="TaJFN8cOOA2_DRdMaHoU-25" vertex="1">
           <mxGeometry width="385" height="102" as="geometry">
             <mxRectangle width="385" height="102" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TaJFN8cOOA2_DRdMaHoU-27" value="4. Timer captura o horário e data do evento mais próximo" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=18;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;" vertex="1" parent="TaJFN8cOOA2_DRdMaHoU-25">
+        <mxCell id="TaJFN8cOOA2_DRdMaHoU-27" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=18;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;" parent="TaJFN8cOOA2_DRdMaHoU-25" vertex="1">
           <mxGeometry x="385" width="385" height="102" as="geometry">
             <mxRectangle width="385" height="102" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TaJFN8cOOA2_DRdMaHoU-28" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TaJFN8cOOA2_DRdMaHoU-21">
+        <mxCell id="TaJFN8cOOA2_DRdMaHoU-28" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="TaJFN8cOOA2_DRdMaHoU-21" vertex="1">
           <mxGeometry y="202" width="770" height="103" as="geometry" />
         </mxCell>
-        <mxCell id="TaJFN8cOOA2_DRdMaHoU-29" value="5. Usuário checa a soma das contas" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=18;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;" vertex="1" parent="TaJFN8cOOA2_DRdMaHoU-28">
+        <mxCell id="TaJFN8cOOA2_DRdMaHoU-29" value="4. Usuário checa a soma das contas" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=18;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;" parent="TaJFN8cOOA2_DRdMaHoU-28" vertex="1">
           <mxGeometry width="385" height="103" as="geometry">
             <mxRectangle width="385" height="103" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TaJFN8cOOA2_DRdMaHoU-30" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=18;align=center;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;" vertex="1" parent="TaJFN8cOOA2_DRdMaHoU-28">
+        <mxCell id="TaJFN8cOOA2_DRdMaHoU-30" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=18;align=center;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;" parent="TaJFN8cOOA2_DRdMaHoU-28" vertex="1">
           <mxGeometry x="385" width="385" height="103" as="geometry">
             <mxRectangle width="385" height="103" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TaJFN8cOOA2_DRdMaHoU-31" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TaJFN8cOOA2_DRdMaHoU-21">
+        <mxCell id="TaJFN8cOOA2_DRdMaHoU-31" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="TaJFN8cOOA2_DRdMaHoU-21" vertex="1">
           <mxGeometry y="305" width="770" height="102" as="geometry" />
         </mxCell>
-        <mxCell id="TaJFN8cOOA2_DRdMaHoU-32" value="6. Usuário checa sua agenda" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=18;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;" vertex="1" parent="TaJFN8cOOA2_DRdMaHoU-31">
+        <mxCell id="TaJFN8cOOA2_DRdMaHoU-32" value="5. Usuário checa sua agenda" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=18;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;" parent="TaJFN8cOOA2_DRdMaHoU-31" vertex="1">
           <mxGeometry width="385" height="102" as="geometry">
             <mxRectangle width="385" height="102" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TaJFN8cOOA2_DRdMaHoU-33" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=18;align=center;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;" vertex="1" parent="TaJFN8cOOA2_DRdMaHoU-31">
-          <mxGeometry x="385" width="385" height="102" as="geometry">
-            <mxRectangle width="385" height="102" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TaJFN8cOOA2_DRdMaHoU-38" value="Sequência alternativa de Eventos 1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=770;height=70;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="690" width="770" height="530" as="geometry" />
-        </mxCell>
-        <mxCell id="TaJFN8cOOA2_DRdMaHoU-39" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;labelPosition=center;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="813" width="770" height="611" as="geometry" />
-        </mxCell>
-        <mxCell id="TaJFN8cOOA2_DRdMaHoU-40" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TaJFN8cOOA2_DRdMaHoU-39">
-          <mxGeometry width="770" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="TaJFN8cOOA2_DRdMaHoU-41" value="&lt;font&gt;1. Este caso de uso começa quando o usuário insere os dados das contas fixas, luz e eletrodomésticos&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=center;fontSize=18;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;" vertex="1" parent="TaJFN8cOOA2_DRdMaHoU-40">
-          <mxGeometry width="385" height="100" as="geometry">
-            <mxRectangle width="385" height="100" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TaJFN8cOOA2_DRdMaHoU-42" value="&lt;font&gt;&amp;nbsp;2. O aplicativo calcula o custo do Kwh com o tempo do consumo do eletrodoméstico e faz a soma para o usuário.&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=center;fontSize=18;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;" vertex="1" parent="TaJFN8cOOA2_DRdMaHoU-40">
-          <mxGeometry x="385" width="385" height="100" as="geometry">
-            <mxRectangle width="385" height="100" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TaJFN8cOOA2_DRdMaHoU-43" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=18;" vertex="1" parent="TaJFN8cOOA2_DRdMaHoU-39">
-          <mxGeometry y="100" width="770" height="102" as="geometry" />
-        </mxCell>
-        <mxCell id="TaJFN8cOOA2_DRdMaHoU-44" value="3. Usuário adiciona evento/atividade ao calendário" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;fontSize=18;" vertex="1" parent="TaJFN8cOOA2_DRdMaHoU-43">
-          <mxGeometry width="385" height="102" as="geometry">
-            <mxRectangle width="385" height="102" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TaJFN8cOOA2_DRdMaHoU-45" value="4. Timer captura o horário e data do evento mais próximo" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=18;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;" vertex="1" parent="TaJFN8cOOA2_DRdMaHoU-43">
-          <mxGeometry x="385" width="385" height="102" as="geometry">
-            <mxRectangle width="385" height="102" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TaJFN8cOOA2_DRdMaHoU-46" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TaJFN8cOOA2_DRdMaHoU-39">
-          <mxGeometry y="202" width="770" height="103" as="geometry" />
-        </mxCell>
-        <mxCell id="TaJFN8cOOA2_DRdMaHoU-47" value="5. Usuário percebe erro ao registrar contas e altera os dados registrados." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=18;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;" vertex="1" parent="TaJFN8cOOA2_DRdMaHoU-46">
-          <mxGeometry width="385" height="103" as="geometry">
-            <mxRectangle width="385" height="103" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TaJFN8cOOA2_DRdMaHoU-48" value="6. O aplicativo recalcula as contas e armazena a informação" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=18;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;" vertex="1" parent="TaJFN8cOOA2_DRdMaHoU-46">
-          <mxGeometry x="385" width="385" height="103" as="geometry">
-            <mxRectangle width="385" height="103" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TaJFN8cOOA2_DRdMaHoU-49" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TaJFN8cOOA2_DRdMaHoU-39">
-          <mxGeometry y="305" width="770" height="102" as="geometry" />
-        </mxCell>
-        <mxCell id="TaJFN8cOOA2_DRdMaHoU-50" value="7. Usuário percebe erro ao registrar evento/atividade e altera os dados registrados." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=18;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;" vertex="1" parent="TaJFN8cOOA2_DRdMaHoU-49">
-          <mxGeometry width="385" height="102" as="geometry">
-            <mxRectangle width="385" height="102" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TaJFN8cOOA2_DRdMaHoU-51" value="8. Timer recaptura a data e o horário do evento/atividade mais próximo" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=18;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;" vertex="1" parent="TaJFN8cOOA2_DRdMaHoU-49">
-          <mxGeometry x="385" width="385" height="102" as="geometry">
-            <mxRectangle width="385" height="102" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TaJFN8cOOA2_DRdMaHoU-60" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TaJFN8cOOA2_DRdMaHoU-39">
-          <mxGeometry y="407" width="770" height="102" as="geometry" />
-        </mxCell>
-        <mxCell id="TaJFN8cOOA2_DRdMaHoU-61" value="9. Usuário checa a soma das contas" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=18;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;" vertex="1" parent="TaJFN8cOOA2_DRdMaHoU-60">
-          <mxGeometry width="385" height="102" as="geometry">
-            <mxRectangle width="385" height="102" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TaJFN8cOOA2_DRdMaHoU-62" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=18;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;" vertex="1" parent="TaJFN8cOOA2_DRdMaHoU-60">
-          <mxGeometry x="385" width="385" height="102" as="geometry">
-            <mxRectangle width="385" height="102" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TaJFN8cOOA2_DRdMaHoU-63" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TaJFN8cOOA2_DRdMaHoU-39">
-          <mxGeometry y="509" width="770" height="102" as="geometry" />
-        </mxCell>
-        <mxCell id="TaJFN8cOOA2_DRdMaHoU-64" value="10. Usuário checa sua agenda" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=18;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;" vertex="1" parent="TaJFN8cOOA2_DRdMaHoU-63">
-          <mxGeometry width="385" height="102" as="geometry">
-            <mxRectangle width="385" height="102" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TaJFN8cOOA2_DRdMaHoU-65" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=18;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;" vertex="1" parent="TaJFN8cOOA2_DRdMaHoU-63">
-          <mxGeometry x="385" width="385" height="102" as="geometry">
-            <mxRectangle width="385" height="102" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TaJFN8cOOA2_DRdMaHoU-52" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="760" width="770" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="TaJFN8cOOA2_DRdMaHoU-53" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TaJFN8cOOA2_DRdMaHoU-52">
-          <mxGeometry width="770" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="TaJFN8cOOA2_DRdMaHoU-54" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;Ação do Ator&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="TaJFN8cOOA2_DRdMaHoU-53">
-          <mxGeometry width="385" height="60" as="geometry">
-            <mxRectangle width="385" height="60" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TaJFN8cOOA2_DRdMaHoU-55" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;Resposta do Aplicativo&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="TaJFN8cOOA2_DRdMaHoU-53">
-          <mxGeometry x="385" width="385" height="60" as="geometry">
-            <mxRectangle width="385" height="60" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TaJFN8cOOA2_DRdMaHoU-66" value="Sequência alternativa de Eventos 2" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=770;height=70;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="1480" width="770" height="530" as="geometry" />
-        </mxCell>
-        <mxCell id="TaJFN8cOOA2_DRdMaHoU-67" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="1550" width="770" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="TaJFN8cOOA2_DRdMaHoU-68" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TaJFN8cOOA2_DRdMaHoU-67">
-          <mxGeometry width="770" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="TaJFN8cOOA2_DRdMaHoU-69" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;Ação do Ator&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="TaJFN8cOOA2_DRdMaHoU-68">
-          <mxGeometry width="385" height="60" as="geometry">
-            <mxRectangle width="385" height="60" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TaJFN8cOOA2_DRdMaHoU-70" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;Resposta do Aplicativo&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="TaJFN8cOOA2_DRdMaHoU-68">
-          <mxGeometry x="385" width="385" height="60" as="geometry">
-            <mxRectangle width="385" height="60" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TaJFN8cOOA2_DRdMaHoU-71" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;labelPosition=center;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="1610" width="770" height="611" as="geometry" />
-        </mxCell>
-        <mxCell id="TaJFN8cOOA2_DRdMaHoU-72" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TaJFN8cOOA2_DRdMaHoU-71">
-          <mxGeometry width="770" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="TaJFN8cOOA2_DRdMaHoU-73" value="&lt;font&gt;1. Este caso de uso começa quando o usuário insere os dados das contas fixas, luz e eletrodomésticos&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=center;fontSize=18;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;" vertex="1" parent="TaJFN8cOOA2_DRdMaHoU-72">
-          <mxGeometry width="385" height="100" as="geometry">
-            <mxRectangle width="385" height="100" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TaJFN8cOOA2_DRdMaHoU-74" value="&lt;font&gt;&amp;nbsp;2. O aplicativo calcula o custo do Kwh com o tempo do consumo do eletrodoméstico e faz a soma para o usuário.&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=center;fontSize=18;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;" vertex="1" parent="TaJFN8cOOA2_DRdMaHoU-72">
-          <mxGeometry x="385" width="385" height="100" as="geometry">
-            <mxRectangle width="385" height="100" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TaJFN8cOOA2_DRdMaHoU-75" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=18;" vertex="1" parent="TaJFN8cOOA2_DRdMaHoU-71">
-          <mxGeometry y="100" width="770" height="102" as="geometry" />
-        </mxCell>
-        <mxCell id="TaJFN8cOOA2_DRdMaHoU-76" value="3. Usuário adiciona evento/atividade ao calendário" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;fontSize=18;" vertex="1" parent="TaJFN8cOOA2_DRdMaHoU-75">
-          <mxGeometry width="385" height="102" as="geometry">
-            <mxRectangle width="385" height="102" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TaJFN8cOOA2_DRdMaHoU-77" value="4. Timer captura o horário e data do evento mais próximo" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=18;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;" vertex="1" parent="TaJFN8cOOA2_DRdMaHoU-75">
-          <mxGeometry x="385" width="385" height="102" as="geometry">
-            <mxRectangle width="385" height="102" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TaJFN8cOOA2_DRdMaHoU-78" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TaJFN8cOOA2_DRdMaHoU-71">
-          <mxGeometry y="202" width="770" height="103" as="geometry" />
-        </mxCell>
-        <mxCell id="TaJFN8cOOA2_DRdMaHoU-79" value="5. Usuário percebe erro ao registrar contas e exclui a mesma." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=18;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;" vertex="1" parent="TaJFN8cOOA2_DRdMaHoU-78">
-          <mxGeometry width="385" height="103" as="geometry">
-            <mxRectangle width="385" height="103" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TaJFN8cOOA2_DRdMaHoU-80" value="6. O aplicativo recalcula as contas e armazena a informação" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=18;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;" vertex="1" parent="TaJFN8cOOA2_DRdMaHoU-78">
-          <mxGeometry x="385" width="385" height="103" as="geometry">
-            <mxRectangle width="385" height="103" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TaJFN8cOOA2_DRdMaHoU-81" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TaJFN8cOOA2_DRdMaHoU-71">
-          <mxGeometry y="305" width="770" height="102" as="geometry" />
-        </mxCell>
-        <mxCell id="TaJFN8cOOA2_DRdMaHoU-82" value="7. Usuário percebe erro ao registrar evento/atividade e exclui." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=18;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;" vertex="1" parent="TaJFN8cOOA2_DRdMaHoU-81">
-          <mxGeometry width="385" height="102" as="geometry">
-            <mxRectangle width="385" height="102" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TaJFN8cOOA2_DRdMaHoU-83" value="8. Timer recaptura a data e o horário do evento/atividade mais próximo" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=18;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;" vertex="1" parent="TaJFN8cOOA2_DRdMaHoU-81">
-          <mxGeometry x="385" width="385" height="102" as="geometry">
-            <mxRectangle width="385" height="102" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TaJFN8cOOA2_DRdMaHoU-84" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TaJFN8cOOA2_DRdMaHoU-71">
-          <mxGeometry y="407" width="770" height="102" as="geometry" />
-        </mxCell>
-        <mxCell id="TaJFN8cOOA2_DRdMaHoU-85" value="9. Usuário checa a soma das contas" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=18;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;" vertex="1" parent="TaJFN8cOOA2_DRdMaHoU-84">
-          <mxGeometry width="385" height="102" as="geometry">
-            <mxRectangle width="385" height="102" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TaJFN8cOOA2_DRdMaHoU-86" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=18;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;" vertex="1" parent="TaJFN8cOOA2_DRdMaHoU-84">
-          <mxGeometry x="385" width="385" height="102" as="geometry">
-            <mxRectangle width="385" height="102" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TaJFN8cOOA2_DRdMaHoU-87" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TaJFN8cOOA2_DRdMaHoU-71">
-          <mxGeometry y="509" width="770" height="102" as="geometry" />
-        </mxCell>
-        <mxCell id="TaJFN8cOOA2_DRdMaHoU-88" value="10. Usuário checa sua agenda" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=18;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;" vertex="1" parent="TaJFN8cOOA2_DRdMaHoU-87">
-          <mxGeometry width="385" height="102" as="geometry">
-            <mxRectangle width="385" height="102" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TaJFN8cOOA2_DRdMaHoU-89" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=18;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;" vertex="1" parent="TaJFN8cOOA2_DRdMaHoU-87">
+        <mxCell id="TaJFN8cOOA2_DRdMaHoU-33" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=18;align=center;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;" parent="TaJFN8cOOA2_DRdMaHoU-31" vertex="1">
           <mxGeometry x="385" width="385" height="102" as="geometry">
             <mxRectangle width="385" height="102" as="alternateBounds" />
           </mxGeometry>
