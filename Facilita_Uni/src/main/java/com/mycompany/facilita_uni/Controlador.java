@@ -9,10 +9,10 @@ import java.io.IOException;
 import java.util.List;
 
 public class Controlador implements Serializable {
-    private Usuario usuario;
+    private Catalogo usuario;
 
     public Controlador() {
-        usuario = new Usuario();
+        usuario = new Catalogo();
     }
 
     // Delegação para Usuario
@@ -44,7 +44,7 @@ public class Controlador implements Serializable {
         return usuario.getAtividades();
     }
 
-    public Usuario getUsuario() {
+    public Catalogo getUsuario() {
         return usuario;
     }
 
